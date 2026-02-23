@@ -318,4 +318,13 @@ Sources/QUARTZ/client/coverage/*
  
 # appsettings.Development.json
 **/appsettings.Development.json
-t
+
+# Ignorer les fichiers .md généraux
+*.md
+
+# MAIS permettre les fichiers importants :
+!README.md
+!.github/agents/**/*.md
+!.github/skills/**/*.md
+!.github/instructions/**/*.md
+!Apprentissage/Cours/**/*.md
