@@ -327,4 +327,4 @@ Sources/QUARTZ/client/coverage/*
 !.github/agents/**/*.md
 !.github/skills/**/*.md
 !.github/instructions/**/*.md
-!Apprentissage/Cours/**/*.md
+!Cours/**/*.md
