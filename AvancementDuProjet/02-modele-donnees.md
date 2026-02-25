@@ -5,17 +5,19 @@ Définir les entités principales, leurs relations et préparer les DTOs pour ga
 
 ## 📌 Statut
 - [ ] À faire
-- [x] En cours
-- [ ] ✅ Terminé
+- [ ] En cours
+- [x] ✅ Terminé (partiel : entités Models/ créées)
+
 
 ## ✅ Tâches réalisées
+- [x] Lister les entités principales (Utilisateur, Mot, RevisionHistory, Dictionnaire, MongoDbSettings)
+- [x] Créer les classes C# dans Models/ (Utilisateur, Mot, RevisionHistory, Dictionnaire, MongoDbSettings)
+- [x] Créer les DTOs dans DTOs/ (11 fichiers : Create/Update/Read pour chaque entité)
 
 ## 🔄 En cours
-- [ ] Lister les entités principales (Utilisateur, Mot, RevisionHistory, etc.)
+- [ ] Définir les interfaces IRepository<T> et IService<T>
 
 ## 📅 Tâches restantes
-- [ ] Créer les classes C# dans Models/
-- [ ] Créer les DTOs dans DTOs/
 - [ ] Définir les interfaces IRepository<T> et IService<T>
 - [ ] Créer les implémentations de base pour une entité
 
@@ -29,7 +31,7 @@ Définir les entités principales, leurs relations et préparer les DTOs pour ga
 ## 🐛 Problèmes rencontrés & solutions
 | Problème | Solution apportée |
 |----------|-------------------|
-|  |  |
+| Aucun à ce stade |  |
 
 ## 🌿 Branche Git utilisée
 - Branche : feature/modele-donnees
