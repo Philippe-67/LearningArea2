@@ -6,20 +6,21 @@ Définir les entités principales, leurs relations et préparer les DTOs pour ga
 ## 📌 Statut
 - [ ] À faire
 - [ ] En cours
-- [x] ✅ Terminé (partiel : entités Models/ créées)
+- [x] ✅ Terminé
 
 
 ## ✅ Tâches réalisées
 - [x] Lister les entités principales (Utilisateur, Mot, RevisionHistory, Dictionnaire, MongoDbSettings)
 - [x] Créer les classes C# dans Models/ (Utilisateur, Mot, RevisionHistory, Dictionnaire, MongoDbSettings)
 - [x] Créer les DTOs dans DTOs/ (11 fichiers : Create/Update/Read pour chaque entité)
+- [x] Définir les interfaces IRepository<T> et IService<T>
+- [x] Créer les implémentations de base pour une entité (MotRepository, MotService)
 
 ## 🔄 En cours
-- [ ] Définir les interfaces IRepository<T> et IService<T>
+
 
 ## 📅 Tâches restantes
-- [ ] Définir les interfaces IRepository<T> et IService<T>
-- [ ] Créer les implémentations de base pour une entité
+
 
 ## 🧱 Choix techniques
 | Choix | Raison |
@@ -38,7 +39,7 @@ Définir les entités principales, leurs relations et préparer les DTOs pour ga
 
 ## 🗓️ Dates
 - Début : 25/02/2026
-- Fin :
+- Fin : 26/02/2026
 
 ---
 > Ce fichier est géré par l’agent conseiller. Il est mis à jour après chaque tâche accomplie et versionné avec le code source.
